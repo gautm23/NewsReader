@@ -31,7 +31,7 @@ public class category_activity extends AppCompatActivity {
         img.add( BitmapFactory.decodeResource(getResources(),R.drawable.science));
         img.add( BitmapFactory.decodeResource(getResources(),R.drawable.technology));
         setContentView(R.layout.activity_category_activity);
-        setTitle("News Categories");
+        setTitle("News Genres");
         RecyclerView recyclerView=(RecyclerView)findViewById(R.id.recycler);
         adapter=new ImageViewer( cat, img);
         recyclerView.setAdapter(adapter);

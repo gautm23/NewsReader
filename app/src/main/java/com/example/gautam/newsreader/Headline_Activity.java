@@ -31,7 +31,6 @@ public class Headline_Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         Intent intent=getIntent();
         DownloadTask task=new DownloadTask();
         String cat=intent.getStringExtra(Intent.EXTRA_TEXT);

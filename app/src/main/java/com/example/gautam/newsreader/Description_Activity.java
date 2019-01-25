@@ -13,7 +13,7 @@ public class Description_Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_description_);
         Intent i = getIntent();
-        setTitle("DESCRIPTION");
+        setTitle("Feed");
         String ssss = i.getStringExtra(Intent.EXTRA_TEXT);
         WebView webView=(WebView)findViewById(R.id.web);
         webView.getSettings().setJavaScriptEnabled(true);
